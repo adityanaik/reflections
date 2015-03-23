@@ -14,3 +14,7 @@ This will show all the edited files, which need to be brought to the staging are
 We can then get them up in staging area, and finally commit it by giving a understandable message.
 
 
+4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+If we want to make an alternate version of the project, it's better to think about making a branch instead of commiting to the master branch.
+
