@@ -18,3 +18,5 @@ We can then get them up in staging area, and finally commit it by giving a under
 
 If we want to make an alternate version of the project, it's better to think about making a branch instead of commiting to the master branch.
 
+5) How do the diagrams help you visualize the branch structure?
+It shows which commits will be shown when git log is called in a branch, and which commits will be ignored as if like they do not exist at all. This enforces the need to create a new branch at UNATTACHED HEADS.
