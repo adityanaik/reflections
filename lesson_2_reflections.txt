@@ -1,0 +1,8 @@
+1) What happens when you initialize a repository? Why do you need to do it?
+
+Running the git init command creates a .git directory in the said directory. As of now it looks like the first step in creating a git repository. The tracking commits feature will be added by a subsequent git command.
+
+
+2) How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+Staging area is an intermediate stage between a normal working directory and a git repository. It facilitates us to add the files which need to be tracked of changes, and ignore the other files.
