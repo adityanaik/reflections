@@ -17,3 +17,8 @@ Clone - Making a copy of repo (or a fork of a repo) on your computer.
 Branches - Making an alternate version of a master code, both of whom then exist and grow independently.
 
 We will fork a GitHub repo if we want to make our version of it by adding/subtracting features. We will clone a repo if we want to bring it down to our local machine for easier development. We will make a branch from the master if we want to add experimental features to the project, and test them before merging into the master.
+
+
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+It helps us in solving conflicts when there is a posibility that the local and remote repository will get out-of-sync.
