@@ -22,3 +22,8 @@ We will fork a GitHub repo if we want to make our version of it by adding/subtra
 4) What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It helps us in solving conflicts when there is a posibility that the local and remote repository will get out-of-sync.
+
+
+5) How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+Without Git/GitHub, all the collaborating devs would need to be near by, preferrably in the same room (or floor). Collaborating by working remotely would just be very difficult.
