@@ -6,3 +6,14 @@ By keeping a remote repo on sites like GitHub, we can showcase our skills and ex
 2) Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 A manual control of pulling the commits gives us the power to first analyze the code before making changes to the master branch.
+
+
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Fork - Basically making a copy of an existing GitHub repo in your GitHub account.
+
+Clone - Making a copy of repo (or a fork of a repo) on your computer.
+
+Branches - Making an alternate version of a master code, both of whom then exist and grow independently.
+
+We will fork a GitHub repo if we want to make our version of it by adding/subtracting features. We will clone a repo if we want to bring it down to our local machine for easier development. We will make a branch from the master if we want to add experimental features to the project, and test them before merging into the master.
