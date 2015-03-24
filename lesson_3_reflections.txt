@@ -1,1 +1,3 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+By keeping a remote repo on sites like GitHub, we can showcase our skills and expertise to potential employers. Also it makes it possible to collaborate with other devs, in that case sites like GitHub work as a server.
