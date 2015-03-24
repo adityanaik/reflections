@@ -20,3 +20,14 @@ If we want to make an alternate version of the project, it's better to think abo
 
 5) How do the diagrams help you visualize the branch structure?
 It shows which commits will be shown when git log is called in a branch, and which commits will be ignored as if like they do not exist at all. This enforces the need to create a new branch at UNATTACHED HEADS.
+
+
+6) What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches enables to systematically combine the features from both the branches using 'recursive' technique.
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: If we did't change even the minor syntax of the master branch, and just added updates to the child branch, we can make use of Gi't automatic merging without fearing that it will introduce bugs in master.
+
+Cons: The automatic merging won't help if the master branch has been modified.
