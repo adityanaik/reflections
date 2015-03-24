@@ -7,6 +7,7 @@ Running the git init command creates a .git directory in the said directory. As 
 
 Staging area is an intermediate stage between a normal working directory and a git repository. It facilitates us to add the files which need to be tracked of changes, and ignore the other files.
 
+
 3) How can you use the staging area to make sure you have one commit per logical change?
 
 After making a logical update to the code, we should run "git status".
@@ -16,7 +17,8 @@ We can then get them up in staging area, and finally commit it by giving a under
 
 4) What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 
-If we want to make an alternate version of the project, it's better to think about making a branch instead of commiting to the master branch.
+If we want to make an alternate version of the project, it's better to think about making a branch instead of commiting to the master branch. Branches are also helpful when collaborating with other devs.
+
 
 5) How do the diagrams help you visualize the branch structure?
 It shows which commits will be shown when git log is called in a branch, and which commits will be ignored as if like they do not exist at all. This enforces the need to create a new branch at UNATTACHED HEADS.
@@ -26,8 +28,9 @@ It shows which commits will be shown when git log is called in a branch, and whi
 
 Merging two branches enables to systematically combine the features from both the branches using 'recursive' technique.
 
+
 7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
 
-Pros: If we did't change even the minor syntax of the master branch, and just added updates to the child branch, we can make use of Gi't automatic merging without fearing that it will introduce bugs in master.
+Pros: If we did't change even the minor syntax of the master branch, and just added updates to the child branch, we can make use of Git's automatic merging without worrying that it will introduce bugs in master.
 
 Cons: The automatic merging won't help if the master branch has been modified.
